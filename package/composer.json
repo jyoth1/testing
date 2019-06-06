@@ -1,0 +1,28 @@
+{
+    "name": "jyoth1/cinepolis",
+    "description": "Professor M's School for Gifted Coders",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^6.5",
+        "mikey179/vfsstream": "^1.6"
+    },
+    "license": "Apache-2.4",
+    "authors": [
+        {
+            "name": "SugarCRM Developer Advocacy",
+            "email": "kondaveetijyothi1998@gmail.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jyoth1/cinepolis.git"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sugarcrm\\ProfessorM\\": ".",
+            "Sugarcrm\\Sugarcrm\\custom\\": [
+                "src/custom/"
+            ]
+        }
+    }
+}
