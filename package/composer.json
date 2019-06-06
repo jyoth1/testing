@@ -15,7 +15,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/jyoth1/cinepolis.git"
+        "url": "https://github.com/jyoth1/testing.git"
     },
     "autoload": {
         "psr-4": {

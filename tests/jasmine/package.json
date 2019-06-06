@@ -1,0 +1,16 @@
+{
+  "name": "sugarcrm-school",
+  "description": "Professor M's School for Gifted Coders",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "grunt test-js --verbose"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-jasmine": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jyoth1/testing.git"
+  }
+}
