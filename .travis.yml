@@ -38,8 +38,7 @@ jobs:
     - cd ../scripts
     - sudo service mysql stop
     script:
-    "./SetupEnvAndRunTests.sh $SUGARCRM_USERNAME=admin $SUGARCRM_PASSWORD=C!nepolis@123 $SUGAR_VERSION=9.0
-      $SUGAR_EDITION=Ent $GITHUB_USERNAME=jyoth1 $GITHUB_PASSWORD=jyothi@githu8 workspace/sugardocker"
+    "./SetupEnvAndRunTests.sh $SUGARCRM_USERNAME=admin $SUGARCRM_PASSWORD=C!nepolis@123 $SUGAR_VERSION=9.0 $SUGAR_EDITION=Ent $GITHUB_USERNAME=jyoth1 $GITHUB_PASSWORD=jyothi@githu8 workspace/sugardocker"
       
   - stage: Run Tests
     sudo: required
