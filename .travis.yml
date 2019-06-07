@@ -38,8 +38,8 @@ jobs:
     - cd ../scripts
     - sudo service mysql stop
     script:
-    - "./SetupEnvAndRunTests.sh $SUGARCRM_USERNAME $SUGARCRM_PASSWORD $SUGAR_VERSION $SUGAR_EDITION $GITHUB_USERNAME $GITHUB_PASSWORD workspace/sugardocker"
-  - stage: Run Tests
+- SUGARCRM_USERNAME = admin SUGARCRM_PASSWORD = C!nepolis123 SUGAR_VERSION=9.0 SUGAR_EDITION = Ent GITHUB_USERNAME = jyoth1 GITHUB_PASSWORD = Jyothi@githu8 
+- stage: Run Tests
     sudo: required
     language: php
     php: '7.1'
